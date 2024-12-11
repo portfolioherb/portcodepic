@@ -52,10 +52,7 @@ thumbImages.forEach((toridasi)=>{
 */
 let imgindex = 0;
 const mainimage = document.querySelector('#mainimage');
-const kougoimage= [
-                    'mainpage.jpeg',
-                    'spoon.jpeg'
-                ];
+const kougoimage= ['mainpage.jpeg','spoon.jpeg'];
    
 const mainchange =()=>{
     mainimage.style.backgroundImage = `url(${kougoimage[imgindex]})`;
