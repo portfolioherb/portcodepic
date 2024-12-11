@@ -11,7 +11,7 @@ body {
     width: 70vw;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../images/greeen.jpeg);
+    background-image: url(greeen.jpeg);
     background-position: left top;
     background-size: 100%;
     background-color: rgba(255, 255, 255, 0.5);
@@ -76,7 +76,7 @@ header h1 {
 
 /*main*/
 #mainimage {
-    background-image: url(../images/mainpage.jpeg);
+    background-image: url(mainpage.jpeg);
     background-color: rgba(255, 255, 255, 0.3);
     background-blend-mode: lighten;   
     background-size: cover;
@@ -145,7 +145,7 @@ h2 {
 
 /*system*/
 #system {
-    background-image: url(../images/hanagreen.png);
+    background-image: url(hanagreen.png);
     background-size: 70vw;
     background-size: cover;
     background-repeat: no-repeat;
@@ -191,7 +191,7 @@ h2 {
 
 /*apprication*/
 #apprication {
-    background-image: url(../images/rabenda.jpeg);
+    background-image: url(rabenda.jpeg);
     background-color: rgba(255, 255, 255, 0.7);
     background-blend-mode: lighten;   
     background-size: cover;
