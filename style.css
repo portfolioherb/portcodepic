@@ -318,7 +318,10 @@ loading
     nav ul {
         display: flex;
         justify-content: space-around;
-        margin-right: 40px;
+        margin-right: 0px;
+    }
+    nav ul li a{
+        padding-left: 0px;
     }
     #mainpage .bgimage{
         justify-content: center;
