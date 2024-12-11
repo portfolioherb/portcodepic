@@ -1,0 +1,306 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+    
+}
+body {
+    font-family: "Yu Gothic Medium", "遊ゴシック Medium", "YuGothic", "YugothicM", "遊ゴシック体", "Hiragino kaku Gothic PnoN", sans-serif;
+    line-height: 1.7;
+    color: #000;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/greeen.jpeg);
+    background-position: left top;
+    background-size: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;   
+    background-attachment: fixed;
+}
+/*header*/
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header h1 {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+/*nav*/
+#menu-open {
+    position: fixed;
+    right: 20px;
+    top: 30px;
+    height: 3.5rem;
+    width: 3.5rem;
+    border: 1px solid;
+    border-radius: 50%;
+    z-index: 4;
+}
+#menu-close {
+    position: fixed;
+    right: 20px;
+    top: 30px;
+    height: 3.5rem;
+    width: 3.5rem;
+    border: 1px solid;
+    border-radius: 20%;
+    z-index: 4;
+}
+#menu-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(0);
+    height: 100%;
+    width:min(40vw,350px);
+    background-color: #6C5C4C;
+    translate: 0 -100vw;
+    z-index: 4;
+}
+.menu-list {
+    list-style: none;
+    margin-top: 50px;
+
+}
+.menu-list li {
+    padding-bottom: 10px;
+}
+.menu-list a {
+    color: #fff;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+/*main*/
+#mainimage {
+    background-image: url(../images/mainpage.jpeg);
+    background-color: rgba(255, 255, 255, 0.3);
+    background-blend-mode: lighten;   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+#mainimage h3{
+    font-size: 5rem;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    font-family:  "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+/*aboutherbday*/
+#aboutherbday {
+    background-color: #EEEEDC;
+    background-position: center top;
+    background-size: 70vw;
+}
+#aboutherbday,
+#system,
+#akindofherb,
+#apprication, section {
+    padding: 5%;
+}
+h2 {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+#aboutherbday .hibi {
+    font-size: 1.3rem;
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-right: 5%;
+    line-height: 2.5;
+    white-space: nowrap;
+}
+#aboutherbday .otodoke {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 500;
+}
+#aboutherbday .bossmigi {
+    display: flex;
+    justify-content: center;
+}
+.bossimage {
+    width: min(25vw,250px);
+    height: auto;
+    border: #6C5C4C 5px solid;
+    margin-left: 5%;
+}
+.subimage {
+    width: 10%;
+    border: #6C5C4C 1px solid;
+}
+
+#aboutherbday .subsita {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*system*/
+#system {
+    background-image: url(../images/hanagreen.png);
+    background-size: 70vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+#system .plan {
+    font-size: 1.3rem;
+    font-weight: 500;
+    border: 3px double #000;
+    padding: 3%;
+    background-color: #F6F6F1;
+}
+#system .sonota {
+    font-size: 0.85rem;
+    font-weight: bolder;
+}
+/*akindofherb*/
+#akindofherb {
+    background-color: #fff;
+    background-size: cover;
+    border: 2px solid #92BD92;
+}
+
+#akindofherb table {
+    padding: 4%;
+    width: 60vw;
+}
+#akindofherb tr:nth-child(even) {
+    background-color: #D3DED8;
+}
+#akindofherb th{
+    padding: 10px 20px;
+    white-space: nowrap;
+    text-align: left;
+    background-color: #D3DED8;
+    font-family: "Zen Maru Gothic", serif;
+
+}
+#akindofherb td {
+    padding: 10px 20px;
+    font-family: "Zen Maru Gothic", serif;
+}
+
+/*apprication*/
+#apprication {
+    background-image: url(../images/rabenda.jpeg);
+    background-color: rgba(255, 255, 255, 0.7);
+    background-blend-mode: lighten;   
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+#apprication dl{
+    display: flex;
+    flex-wrap: wrap;
+}
+#apprication dt{
+    width: 30%;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+#apprication dd{
+    width: 40%;
+    padding-bottom: 10px;
+}
+#apprication input {
+    padding: 3px;
+}
+#apprication p input{
+    border: 1px solid;
+    padding: 5px 5%;
+    font-weight: bolder;
+}
+
+/*footer*/
+footer {
+    background-color: #F6F6F1;
+    padding-top: 3%;
+}
+footer ul {
+    list-style: none;
+}
+footer a {
+    color: #000;
+    text-decoration: none;
+}
+footer .bunnkatsu {
+    display: flex;
+}
+/*
+loading
+==============================*/
+
+
+.colorful {
+    background:linear-gradient(45deg, #BCBC48,#BDBCAF,#92BD92);
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    animation: bgchange 10s ease;
+}
+	@keyframes bgchange{
+        0%   {background:#BCBC48;}
+        20%  {background:#BDBCAF;}
+        45%  {background:#92BD92;}
+}
+.colorful p {
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 10%;
+    font-family:  "Amatic SC", sans-serif;
+    font-weight: 700;
+}
+
+
+@media (max-width:600px) {
+    html {
+        font-size: 75%;
+        
+    }
+    body {
+        width: 85vw;
+    }
+    
+    /*nav*/
+    #menu-open {
+        position: fixed;
+        right: 10px;
+        top: 10px;
+        height: 3.5rem;
+        width: 3.5rem;
+        border: 1px solid;
+        border-radius: 50%;
+        z-index: 4;
+    }
+    #menu-close {
+        position: fixed;
+        right: 10px;
+        top: 10px;
+        height: 3.5rem;
+        width: 3.5rem;
+        border: 1px solid;
+        border-radius: 20%;
+        z-index: 4;
+    }
+    #menu-panel {
+        position: fixed;
+        top: 0;
+        right: 0;
+        transform: translateX(0);
+        height: 40%;
+        width:min(40vw,350px);
+        background-color: #6C5C4C;
+        translate: 0 -100vw;
+        z-index: 4;
+    }
+    
+}
