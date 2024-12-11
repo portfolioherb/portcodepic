@@ -267,7 +267,7 @@ loading
         
     }
     body {
-        width: 85vw;
+        width: 90vw;
     }
     
     /*nav*/
@@ -296,11 +296,34 @@ loading
         top: 0;
         right: 0;
         transform: translateX(0);
-        height: 40%;
-        width:min(40vw,350px);
+        height: 45%;
+        width:min(50vw,350px);
         background-color: #6C5C4C;
         translate: 0 -100vw;
         z-index: 4;
     }
     
+    #akindofherb table {
+        padding: 0;
+        width: 70vw;
+    }
+    .bossimage {
+        width: min(40vw,250px);
+        
+        border: #6C5C4C 5px solid;
+        margin-left: 0;
+    }
+    .subimage {
+        width: 10%;
+        border: #6C5C4C 1px solid;
+    }
+    
+    #aboutherbday .subsita {
+        display: flex;
+        justify-content: space-between;
+    }
+    #aboutherbday .hibi {
+        margin-right: 2%;
+        line-height: 2;
+    }
 }
