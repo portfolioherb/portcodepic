@@ -57,7 +57,7 @@ const kougoimage= ['mainpage.jpeg','spoon.jpeg'];
 const mainchange =()=>{
     mainimage.style.backgroundImage = `url(${kougoimage[imgindex]})`;
     imgindex++;
-    if (imgindex===kougoimage.length){
+    if (imgindex===kougoimage.length-1){
         imgindex = 0;
     }
 }
