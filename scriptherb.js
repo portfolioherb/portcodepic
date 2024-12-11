@@ -53,8 +53,8 @@ thumbImages.forEach((toridasi)=>{
 let imgindex = 0;
 const mainimage = document.querySelector('#mainimage');
 const kougoimage= [
-                    'images/mainpage.jpeg',
-                    'images/spoon.jpeg'
+                    'mainpage.jpeg',
+                    'spoon.jpeg'
                 ];
    
 const mainchange =()=>{
